@@ -2,14 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://chinalijinglun.github.io/standard/docs/html/code.html</loc>
+    <loc>https://chinalijinglun.github.io/standard/docs/html/webapp.html</loc>
     
     <lastmod>2017-03-26T18:09:26.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://chinalijinglun.github.io/standard/news/2015/11/13/first-released/</loc>
+    <loc>https://chinalijinglun.github.io/standard/news/2015/11/15/beta-released/</loc>
     
     <lastmod>2017-03-26T18:09:26.000Z</lastmod>
     
@@ -65,6 +65,13 @@
   </url>
   
   <url>
+    <loc>https://chinalijinglun.github.io/standard/docs/css/note.html</loc>
+    
+    <lastmod>2017-03-26T18:09:26.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://chinalijinglun.github.io/standard/docs/common/markdown.html</loc>
     
     <lastmod>2017-03-26T18:09:26.000Z</lastmod>
@@ -79,28 +86,7 @@
   </url>
   
   <url>
-    <loc>https://chinalijinglun.github.io/standard/docs/css/note.html</loc>
-    
-    <lastmod>2017-03-26T18:09:26.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://chinalijinglun.github.io/standard/docs/css/query.html</loc>
-    
-    <lastmod>2017-03-26T18:09:26.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://chinalijinglun.github.io/standard/docs/css/code.html</loc>
-    
-    <lastmod>2017-03-26T18:09:26.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://chinalijinglun.github.io/standard/docs/css/reset.html</loc>
     
     <lastmod>2017-03-26T18:09:26.000Z</lastmod>
     
@@ -114,6 +100,20 @@
   </url>
   
   <url>
+    <loc>https://chinalijinglun.github.io/standard/docs/css/reset.html</loc>
+    
+    <lastmod>2017-03-26T18:09:26.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://chinalijinglun.github.io/standard/docs/css/query.html</loc>
+    
+    <lastmod>2017-03-26T18:09:26.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://chinalijinglun.github.io/standard/docs/css/webkit.html</loc>
     
     <lastmod>2017-03-26T18:09:26.000Z</lastmod>
@@ -121,14 +121,7 @@
   </url>
   
   <url>
-    <loc>https://chinalijinglun.github.io/standard/news/2015/11/15/beta-released/</loc>
-    
-    <lastmod>2017-03-26T18:09:26.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://chinalijinglun.github.io/standard/docs/html/jdc_fd_web_final_2.html</loc>
+    <loc>https://chinalijinglun.github.io/standard/news/2015/11/13/first-released/</loc>
     
     <lastmod>2017-03-26T18:09:26.000Z</lastmod>
     
@@ -142,21 +135,14 @@
   </url>
   
   <url>
-    <loc>https://chinalijinglun.github.io/standard/docs/html/template.html</loc>
+    <loc>https://chinalijinglun.github.io/standard/docs/html/jdc_fd_web_final_2.html</loc>
     
     <lastmod>2017-03-26T18:09:26.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://chinalijinglun.github.io/standard/docs/image/format.html</loc>
-    
-    <lastmod>2017-03-26T18:09:26.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://chinalijinglun.github.io/standard/docs/html/webapp.html</loc>
+    <loc>https://chinalijinglun.github.io/standard/docs/html/code.html</loc>
     
     <lastmod>2017-03-26T18:09:26.000Z</lastmod>
     
@@ -170,7 +156,14 @@
   </url>
   
   <url>
-    <loc>https://chinalijinglun.github.io/standard/docs/image/quality.html</loc>
+    <loc>https://chinalijinglun.github.io/standard/docs/image/format.html</loc>
+    
+    <lastmod>2017-03-26T18:09:26.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://chinalijinglun.github.io/standard/docs/html/template.html</loc>
     
     <lastmod>2017-03-26T18:09:26.000Z</lastmod>
     
@@ -178,6 +171,13 @@
   
   <url>
     <loc>https://chinalijinglun.github.io/standard/docs/image/jdc_fd_guide_image.html</loc>
+    
+    <lastmod>2017-03-26T18:09:26.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://chinalijinglun.github.io/standard/docs/image/quality.html</loc>
     
     <lastmod>2017-03-26T18:09:26.000Z</lastmod>
     
