@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Aotu.io - 前端代码规范</title>
   <subtitle>Front-End Coding Guidelines</subtitle>
-  <link href="/atom.xml" rel="self"/>
+  <link href="standard/atom.xml" rel="self"/>
   
   <link href="https://chinalijinglun.github.io/standard/"/>
   <updated>2017-03-26T18:09:26.000Z</updated>
