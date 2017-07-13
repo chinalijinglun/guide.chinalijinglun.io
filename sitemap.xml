@@ -72,13 +72,6 @@
   </url>
   
   <url>
-    <loc>http://standard.lijinglun.com/docs/css/jdc_fd_guide_css.html</loc>
-    
-    <lastmod>2017-03-26T18:09:26.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://standard.lijinglun.com/docs/css/note.html</loc>
     
     <lastmod>2017-03-26T18:09:26.000Z</lastmod>
@@ -86,7 +79,7 @@
   </url>
   
   <url>
-    <loc>http://standard.lijinglun.com/docs/css/reset.html</loc>
+    <loc>http://standard.lijinglun.com/docs/css/jdc_fd_guide_css.html</loc>
     
     <lastmod>2017-03-26T18:09:26.000Z</lastmod>
     
@@ -101,6 +94,13 @@
   
   <url>
     <loc>http://standard.lijinglun.com/docs/css/query.html</loc>
+    
+    <lastmod>2017-03-26T18:09:26.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://standard.lijinglun.com/docs/css/reset.html</loc>
     
     <lastmod>2017-03-26T18:09:26.000Z</lastmod>
     
@@ -128,14 +128,14 @@
   </url>
   
   <url>
-    <loc>http://standard.lijinglun.com/docs/html/note.html</loc>
+    <loc>http://standard.lijinglun.com/docs/html/jdc_fd_web_final_2.html</loc>
     
     <lastmod>2017-03-26T18:09:26.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://standard.lijinglun.com/docs/html/jdc_fd_web_final_2.html</loc>
+    <loc>http://standard.lijinglun.com/docs/html/note.html</loc>
     
     <lastmod>2017-03-26T18:09:26.000Z</lastmod>
     
@@ -191,14 +191,14 @@
   </url>
   
   <url>
-    <loc>http://standard.lijinglun.com/docs/js/code.html</loc>
+    <loc>http://standard.lijinglun.com/docs/js/language.html</loc>
     
     <lastmod>2017-03-26T18:09:26.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://standard.lijinglun.com/docs/js/language.html</loc>
+    <loc>http://standard.lijinglun.com/docs/js/code.html</loc>
     
     <lastmod>2017-03-26T18:09:26.000Z</lastmod>
     
