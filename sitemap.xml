@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://standard.lijinglun.com/docs/html/code.html</loc>
+    <loc>http://standard.lijinglun.com/docs/css/note.html</loc>
     
     <lastmod>2017-03-26T18:09:26.000Z</lastmod>
     
@@ -72,63 +72,7 @@
   </url>
   
   <url>
-    <loc>http://standard.lijinglun.com/docs/css/note.html</loc>
-    
-    <lastmod>2017-03-26T18:09:26.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://standard.lijinglun.com/docs/css/jdc_fd_guide_css.html</loc>
-    
-    <lastmod>2017-03-26T18:09:26.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://standard.lijinglun.com/docs/css/code.html</loc>
-    
-    <lastmod>2017-03-26T18:09:26.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://standard.lijinglun.com/docs/css/query.html</loc>
-    
-    <lastmod>2017-03-26T18:09:26.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://standard.lijinglun.com/docs/css/reset.html</loc>
-    
-    <lastmod>2017-03-26T18:09:26.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://standard.lijinglun.com/docs/css/sass.html</loc>
-    
-    <lastmod>2017-03-26T18:09:26.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://standard.lijinglun.com/docs/css/webkit.html</loc>
-    
-    <lastmod>2017-03-26T18:09:26.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://standard.lijinglun.com/news/2015/11/15/beta-released/</loc>
-    
-    <lastmod>2017-03-26T18:09:26.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://standard.lijinglun.com/docs/html/jdc_fd_web_final_2.html</loc>
+    <loc>http://standard.lijinglun.com/docs/html/code.html</loc>
     
     <lastmod>2017-03-26T18:09:26.000Z</lastmod>
     
@@ -136,6 +80,13 @@
   
   <url>
     <loc>http://standard.lijinglun.com/docs/html/note.html</loc>
+    
+    <lastmod>2017-03-26T18:09:26.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://standard.lijinglun.com/docs/html/jdc_fd_web_final_2.html</loc>
     
     <lastmod>2017-03-26T18:09:26.000Z</lastmod>
     
@@ -156,7 +107,28 @@
   </url>
   
   <url>
-    <loc>http://standard.lijinglun.com/docs/image/format.html</loc>
+    <loc>http://standard.lijinglun.com/docs/css/code.html</loc>
+    
+    <lastmod>2017-03-26T18:09:26.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://standard.lijinglun.com/docs/css/jdc_fd_guide_css.html</loc>
+    
+    <lastmod>2017-03-26T18:09:26.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://standard.lijinglun.com/news/2015/11/15/beta-released/</loc>
+    
+    <lastmod>2017-03-26T18:09:26.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://standard.lijinglun.com/docs/css/reset.html</loc>
     
     <lastmod>2017-03-26T18:09:26.000Z</lastmod>
     
@@ -170,7 +142,28 @@
   </url>
   
   <url>
-    <loc>http://standard.lijinglun.com/docs/image/jdc_fd_guide_image.html</loc>
+    <loc>http://standard.lijinglun.com/docs/css/query.html</loc>
+    
+    <lastmod>2017-03-26T18:09:26.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://standard.lijinglun.com/docs/image/format.html</loc>
+    
+    <lastmod>2017-03-26T18:09:26.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://standard.lijinglun.com/docs/css/sass.html</loc>
+    
+    <lastmod>2017-03-26T18:09:26.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://standard.lijinglun.com/docs/css/webkit.html</loc>
     
     <lastmod>2017-03-26T18:09:26.000Z</lastmod>
     
@@ -184,21 +177,14 @@
   </url>
   
   <url>
+    <loc>http://standard.lijinglun.com/docs/image/jdc_fd_guide_image.html</loc>
+    
+    <lastmod>2017-03-26T18:09:26.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://standard.lijinglun.com/docs/image/size.html</loc>
-    
-    <lastmod>2017-03-26T18:09:26.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://standard.lijinglun.com/docs/js/language.html</loc>
-    
-    <lastmod>2017-03-26T18:09:26.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://standard.lijinglun.com/docs/js/code.html</loc>
     
     <lastmod>2017-03-26T18:09:26.000Z</lastmod>
     
@@ -219,6 +205,13 @@
   </url>
   
   <url>
+    <loc>http://standard.lijinglun.com/docs/name/jdc_fd_guide_name.html</loc>
+    
+    <lastmod>2017-03-26T18:09:26.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://standard.lijinglun.com/docs/name/htmlcss.html</loc>
     
     <lastmod>2017-03-26T18:09:26.000Z</lastmod>
@@ -233,7 +226,14 @@
   </url>
   
   <url>
-    <loc>http://standard.lijinglun.com/docs/name/jdc_fd_guide_name.html</loc>
+    <loc>http://standard.lijinglun.com/docs/js/language.html</loc>
+    
+    <lastmod>2017-03-26T18:09:26.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://standard.lijinglun.com/docs/js/code.html</loc>
     
     <lastmod>2017-03-26T18:09:26.000Z</lastmod>
     
