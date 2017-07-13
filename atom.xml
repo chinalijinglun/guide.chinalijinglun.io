@@ -4,9 +4,9 @@
   <subtitle>Front-End Coding Guidelines</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="https://chinalijinglun.github.io/standard/"/>
+  <link href="http://standard.lijinglun.com/"/>
   <updated>2017-03-26T18:09:26.000Z</updated>
-  <id>https://chinalijinglun.github.io/standard/</id>
+  <id>http://standard.lijinglun.com/</id>
   
   <author>
     <name>李经纶</name>
@@ -17,8 +17,8 @@
   
   <entry>
     <title>V1.0.0 Beta Released</title>
-    <link href="https://chinalijinglun.github.io/standard/news/2015/11/15/beta-released/"/>
-    <id>https://chinalijinglun.github.io/standard/news/2015/11/15/beta-released/</id>
+    <link href="http://standard.lijinglun.com/news/2015/11/15/beta-released/"/>
+    <id>http://standard.lijinglun.com/news/2015/11/15/beta-released/</id>
     <published>2015-11-15T00:00:00.000Z</published>
     <updated>2017-03-26T18:09:26.000Z</updated>
     
@@ -46,8 +46,8 @@
   
   <entry>
     <title>V1.0.0 Preview (预览版)</title>
-    <link href="https://chinalijinglun.github.io/standard/news/2015/11/13/first-released/"/>
-    <id>https://chinalijinglun.github.io/standard/news/2015/11/13/first-released/</id>
+    <link href="http://standard.lijinglun.com/news/2015/11/13/first-released/"/>
+    <id>http://standard.lijinglun.com/news/2015/11/13/first-released/</id>
     <published>2015-11-13T00:00:00.000Z</published>
     <updated>2017-03-26T18:09:26.000Z</updated>
     
