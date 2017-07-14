@@ -2,7 +2,7 @@
 <html lang="zh-cn">
 <head prefix="og: http://ogp.me/ns#">
   <meta charset="utf-8">
-  <title>语言规范 | Aotu.io - 前端代码规范</title>
+  <title>语言规范 | lijinglun.com- 前端代码规范</title>
   <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- Canonical links -->
@@ -36,15 +36,15 @@
   <link rel="stylesheet" href="/css/navy.css">
   <!-- endbuild -->
   <!-- RSS -->
-  <link rel="alternate" href="/atom.xml" title="Aotu.io - 前端代码规范">
+  <link rel="alternate" href="/atom.xml" title="lijinglun.com- 前端代码规范">
   <!-- Open Graph -->
   <meta name="description" content="语言规范JavaScript 是一种客户端脚本语言，这里列出了编写 JavaScript 时需要遵守的规则。 类型 基本类型  字符串 数值 布尔类型 null undefined  const foo = 1let bar = foobar = 9console.log(foo, bar) // 1, 9  复杂类型  object array function  const foo = [1,">
 <meta property="og:type" content="website">
 <meta property="og:title" content="语言规范">
 <meta property="og:url" content="http://standard.lijinglun.com/docs/js/language.html">
-<meta property="og:site_name" content="Aotu.io - 前端代码规范">
+<meta property="og:site_name" content="lijinglun.com- 前端代码规范">
 <meta property="og:description" content="语言规范JavaScript 是一种客户端脚本语言，这里列出了编写 JavaScript 时需要遵守的规则。 类型 基本类型  字符串 数值 布尔类型 null undefined  const foo = 1let bar = foobar = 9console.log(foo, bar) // 1, 9  复杂类型  object array function  const foo = [1,">
-<meta property="og:updated_time" content="2017-03-26T18:09:26.000Z">
+<meta property="og:updated_time" content="2017-07-14T08:59:43.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="语言规范">
 <meta name="twitter:description" content="语言规范JavaScript 是一种客户端脚本语言，这里列出了编写 JavaScript 时需要遵守的规则。 类型 基本类型  字符串 数值 布尔类型 null undefined  const foo = 1let bar = foobar = 9console.log(foo, bar) // 1, 9  复杂类型  object array function  const foo = [1,">
@@ -152,7 +152,7 @@
 <figure class="highlight js"><table><tr><td class="code"><pre><div class="line"><span class="keyword">const</span> job = <span class="string">'FrontEnd'</span></div><div class="line"></div><div class="line"><span class="comment">// bad</span></div><div class="line"><span class="keyword">const</span> item = &#123;</div><div class="line">  <span class="attr">job</span>: job</div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="comment">// good</span></div><div class="line"><span class="keyword">const</span> item = &#123;</div><div class="line">  job</div><div class="line">&#125;</div></pre></td></tr></table></figure>
 </li>
 <li><p>对象属性值的简写方式要和声明式的方式分组</p>
-<figure class="highlight js"><table><tr><td class="code"><pre><div class="line"><span class="keyword">const</span> job = <span class="string">'FrontEnd'</span></div><div class="line"><span class="keyword">const</span> department = <span class="string">'JDC'</span></div><div class="line"></div><div class="line"><span class="comment">// bad</span></div><div class="line"><span class="keyword">const</span> item = &#123;</div><div class="line">  <span class="attr">sex</span>: <span class="string">'male'</span>,</div><div class="line">  job,</div><div class="line">  <span class="attr">age</span>: <span class="number">25</span>,</div><div class="line">  department</div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="comment">// good</span></div><div class="line"><span class="keyword">const</span> item = &#123;</div><div class="line">  job,</div><div class="line">  department,</div><div class="line">  <span class="attr">sex</span>: <span class="string">'male'</span>,</div><div class="line">  <span class="attr">age</span>: <span class="number">25</span></div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<figure class="highlight js"><table><tr><td class="code"><pre><div class="line"><span class="keyword">const</span> job = <span class="string">'FrontEnd'</span></div><div class="line"><span class="keyword">const</span> department = <span class="string">'lijinglun'</span></div><div class="line"></div><div class="line"><span class="comment">// bad</span></div><div class="line"><span class="keyword">const</span> item = &#123;</div><div class="line">  <span class="attr">sex</span>: <span class="string">'male'</span>,</div><div class="line">  job,</div><div class="line">  <span class="attr">age</span>: <span class="number">25</span>,</div><div class="line">  department</div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="comment">// good</span></div><div class="line"><span class="keyword">const</span> item = &#123;</div><div class="line">  job,</div><div class="line">  department,</div><div class="line">  <span class="attr">sex</span>: <span class="string">'male'</span>,</div><div class="line">  <span class="attr">age</span>: <span class="number">25</span></div><div class="line">&#125;</div></pre></td></tr></table></figure>
 </li>
 </ul>
 <h3 id="数组" class="article-heading"><a href="#数组" class="headerlink" title="数组"></a>数组<a class="article-anchor" href="#数组" aria-hidden="true"></a></h3><ul>
@@ -182,10 +182,10 @@
 </ul>
 <h3 id="字符串" class="article-heading"><a href="#字符串" class="headerlink" title="字符串"></a>字符串<a class="article-anchor" href="#字符串" aria-hidden="true"></a></h3><ul>
 <li><p>字符串统一使用单引号的形式 <code>&#39;&#39;</code></p>
-<figure class="highlight js"><table><tr><td class="code"><pre><div class="line"><span class="comment">// bad</span></div><div class="line"><span class="keyword">const</span> department = <span class="string">"JDC"</span></div><div class="line"></div><div class="line"><span class="comment">// good</span></div><div class="line"><span class="keyword">const</span> department = <span class="string">'JDC'</span></div></pre></td></tr></table></figure>
+<figure class="highlight js"><table><tr><td class="code"><pre><div class="line"><span class="comment">// bad</span></div><div class="line"><span class="keyword">const</span> department = <span class="string">"lijinglun"</span></div><div class="line"></div><div class="line"><span class="comment">// good</span></div><div class="line"><span class="keyword">const</span> department = <span class="string">'lijinglun'</span></div></pre></td></tr></table></figure>
 </li>
 <li><p>字符串太长的时候，请不要使用字符串连接符换行 <code>\</code>，而是使用 <code>+</code></p>
-<figure class="highlight js"><table><tr><td class="code"><pre><div class="line"><span class="keyword">const</span> str = <span class="string">'凹凸实验室 凹凸实验室 凹凸实验室'</span> +</div><div class="line">  <span class="string">'凹凸实验室 凹凸实验室 凹凸实验室'</span> +</div><div class="line">  <span class="string">'凹凸实验室 凹凸实验室'</span></div></pre></td></tr></table></figure>
+<figure class="highlight js"><table><tr><td class="code"><pre><div class="line"><span class="keyword">const</span> str = <span class="string">'lijinglun lijinglun lijinglun'</span> +</div><div class="line">  <span class="string">'lijinglun lijinglun lijinglun'</span> +</div><div class="line">  <span class="string">'lijinglun lijinglun'</span></div></pre></td></tr></table></figure>
 </li>
 <li><p>程序化生成字符串时，请使用模板字符串</p>
 <figure class="highlight js"><table><tr><td class="code"><pre><div class="line"><span class="keyword">const</span> test = <span class="string">'test'</span></div><div class="line"></div><div class="line"><span class="comment">// bad</span></div><div class="line"><span class="keyword">const</span> str = [<span class="string">'a'</span>, <span class="string">'b'</span>, test].join()</div><div class="line"></div><div class="line"><span class="comment">// bad</span></div><div class="line"><span class="keyword">const</span> str = <span class="string">'a'</span> + <span class="string">'b'</span> + test</div><div class="line"></div><div class="line"><span class="comment">// good</span></div><div class="line"><span class="keyword">const</span> str = <span class="string">`ab<span class="subst">$&#123;test&#125;</span>`</span></div></pre></td></tr></table></figure>
@@ -266,10 +266,11 @@
 <p>对数组进行 <code>for in</code> 的时候，顺序是不固定的</p>
 </blockquote>
 <h3 id="修改内置对象的原型" class="article-heading"><a href="#修改内置对象的原型" class="headerlink" title="修改内置对象的原型"></a>修改内置对象的原型<a class="article-anchor" href="#修改内置对象的原型" aria-hidden="true"></a></h3><p>不要修改内置对象，如 <code>Object</code> 和 <code>Array</code></p>
+<p><a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript" target="_blank" rel="external">MDN教程</a><br><a href="http://es6.ruanyifeng.com/" target="_blank" rel="external">ES6教程</a><br><a href="https://github.com/airbnb/javascript" target="_blank" rel="external">js教程</a></p>
 
               </div>
               <footer class="article-footer">
-                <time class="article-footer-updated" datetime="2017-03-26T18:09:26.000Z" itemprop="dateModified">上次更新：2017-03-26</time>
+                <time class="article-footer-updated" datetime="2017-07-14T08:59:43.000Z" itemprop="dateModified">上次更新：2017-07-14</time>
                 <a href="/docs/name/classname.html" class="article-footer-prev" title="ClassName 命名"><i class="fa fa-chevron-left"></i><span>上一页</span></a><a href="/docs/js/code.html" class="article-footer-next" title="代码规范"><span>下一页</span><i class="fa fa-chevron-right"></i></a>
               </footer>
               
@@ -288,7 +289,7 @@
         </div>
       </article>
       <aside id="sidebar" role="navigation" class="sidebar">
-  <div class="inner"><strong class="sidebar-title">开始使用</strong><a href="/docs/index.html" class="sidebar-link">概述</a><strong class="sidebar-title">HTML 规范</strong><a href="/docs/html/code.html" class="sidebar-link">代码规范</a><a href="/docs/html/note.html" class="sidebar-link">注释规范</a><a href="/docs/html/template.html" class="sidebar-link">文件模版</a><a href="/docs/html/webapp.html" class="sidebar-link">WebApp Meta</a><strong class="sidebar-title">图片规范</strong><a href="/docs/image/format.html" class="sidebar-link">图片格式</a><a href="/docs/image/size.html" class="sidebar-link">图片大小</a><a href="/docs/image/quality.html" class="sidebar-link">图片质量</a><a href="/docs/image/import.html" class="sidebar-link">图片引入</a><strong class="sidebar-title">CSS 规范</strong><a href="/docs/css/code.html" class="sidebar-link">代码规范</a><a href="/docs/css/note.html" class="sidebar-link">注释规范</a><a href="/docs/css/sass.html" class="sidebar-link">SASS 规范</a><a href="/docs/css/reset.html" class="sidebar-link">重置样式</a><a href="/docs/css/query.html" class="sidebar-link">媒体查询</a><a href="/docs/css/webkit.html" class="sidebar-link">移动端常用私有属性</a><strong class="sidebar-title">命名规范</strong><a href="/docs/name/dir.html" class="sidebar-link">目录命名</a><a href="/docs/name/image.html" class="sidebar-link">图片命名</a><a href="/docs/name/htmlcss.html" class="sidebar-link">HTML/CSS 命名</a><a href="/docs/name/classname.html" class="sidebar-link">ClassName 命名</a><strong class="sidebar-title">JS 规范</strong><a href="/docs/js/language.html" class="sidebar-link current">语言规范</a><a href="/docs/js/code.html" class="sidebar-link">代码规范</a></div>
+  <div class="inner"><strong class="sidebar-title">开始使用</strong><a href="/docs/index.html" class="sidebar-link">概述</a><strong class="sidebar-title">HTML 规范</strong><a href="/docs/html/code.html" class="sidebar-link">代码规范</a><a href="/docs/html/note.html" class="sidebar-link">注释规范</a><a href="/docs/html/template.html" class="sidebar-link">文件模版</a><a href="/docs/html/webapp.html" class="sidebar-link">WebApp Meta</a><strong class="sidebar-title">图片规范</strong><a href="/docs/image/format.html" class="sidebar-link">图片格式</a><a href="/docs/image/size.html" class="sidebar-link">图片大小</a><a href="/docs/image/quality.html" class="sidebar-link">图片质量</a><a href="/docs/image/import.html" class="sidebar-link">图片引入</a><strong class="sidebar-title">CSS 规范</strong><a href="/docs/css/code.html" class="sidebar-link">代码规范</a><a href="/docs/css/note.html" class="sidebar-link">注释规范</a><a href="/docs/css/sass.html" class="sidebar-link">SASS 规范</a><a href="/docs/css/reset.html" class="sidebar-link">重置样式</a><a href="/docs/css/query.html" class="sidebar-link">媒体查询</a><a href="/docs/css/webkit.html" class="sidebar-link">移动端常用私有属性</a><strong class="sidebar-title">命名规范</strong><a href="/docs/name/dir.html" class="sidebar-link">目录命名</a><a href="/docs/name/image.html" class="sidebar-link">图片命名</a><a href="/docs/name/htmlcss.html" class="sidebar-link">HTML/CSS 命名</a><a href="/docs/name/classname.html" class="sidebar-link">ClassName 命名</a><strong class="sidebar-title">JS 规范</strong><a href="/docs/js/language.html" class="sidebar-link current">语言规范</a><a href="/docs/js/code.html" class="sidebar-link">代码规范</a><strong class="sidebar-title">通用</strong><a href="/docs/common/markdown.html" class="sidebar-link">Markdown</a></div>
 </aside>
 
     </div>
@@ -318,7 +319,7 @@
       </li>
     </ul>
     
-      <strong class="mobile-nav-title">开始使用</strong><a href="/docs/index.html" class="mobile-nav-link">概述</a><strong class="mobile-nav-title">HTML 规范</strong><a href="/docs/html/code.html" class="mobile-nav-link">代码规范</a><a href="/docs/html/note.html" class="mobile-nav-link">注释规范</a><a href="/docs/html/template.html" class="mobile-nav-link">文件模版</a><a href="/docs/html/webapp.html" class="mobile-nav-link">WebApp Meta</a><strong class="mobile-nav-title">图片规范</strong><a href="/docs/image/format.html" class="mobile-nav-link">图片格式</a><a href="/docs/image/size.html" class="mobile-nav-link">图片大小</a><a href="/docs/image/quality.html" class="mobile-nav-link">图片质量</a><a href="/docs/image/import.html" class="mobile-nav-link">图片引入</a><strong class="mobile-nav-title">CSS 规范</strong><a href="/docs/css/code.html" class="mobile-nav-link">代码规范</a><a href="/docs/css/note.html" class="mobile-nav-link">注释规范</a><a href="/docs/css/sass.html" class="mobile-nav-link">SASS 规范</a><a href="/docs/css/reset.html" class="mobile-nav-link">重置样式</a><a href="/docs/css/query.html" class="mobile-nav-link">媒体查询</a><a href="/docs/css/webkit.html" class="mobile-nav-link">移动端常用私有属性</a><strong class="mobile-nav-title">命名规范</strong><a href="/docs/name/dir.html" class="mobile-nav-link">目录命名</a><a href="/docs/name/image.html" class="mobile-nav-link">图片命名</a><a href="/docs/name/htmlcss.html" class="mobile-nav-link">HTML/CSS 命名</a><a href="/docs/name/classname.html" class="mobile-nav-link">ClassName 命名</a><strong class="mobile-nav-title">JS 规范</strong><a href="/docs/js/language.html" class="mobile-nav-link current">语言规范</a><a href="/docs/js/code.html" class="mobile-nav-link">代码规范</a>
+      <strong class="mobile-nav-title">开始使用</strong><a href="/docs/index.html" class="mobile-nav-link">概述</a><strong class="mobile-nav-title">HTML 规范</strong><a href="/docs/html/code.html" class="mobile-nav-link">代码规范</a><a href="/docs/html/note.html" class="mobile-nav-link">注释规范</a><a href="/docs/html/template.html" class="mobile-nav-link">文件模版</a><a href="/docs/html/webapp.html" class="mobile-nav-link">WebApp Meta</a><strong class="mobile-nav-title">图片规范</strong><a href="/docs/image/format.html" class="mobile-nav-link">图片格式</a><a href="/docs/image/size.html" class="mobile-nav-link">图片大小</a><a href="/docs/image/quality.html" class="mobile-nav-link">图片质量</a><a href="/docs/image/import.html" class="mobile-nav-link">图片引入</a><strong class="mobile-nav-title">CSS 规范</strong><a href="/docs/css/code.html" class="mobile-nav-link">代码规范</a><a href="/docs/css/note.html" class="mobile-nav-link">注释规范</a><a href="/docs/css/sass.html" class="mobile-nav-link">SASS 规范</a><a href="/docs/css/reset.html" class="mobile-nav-link">重置样式</a><a href="/docs/css/query.html" class="mobile-nav-link">媒体查询</a><a href="/docs/css/webkit.html" class="mobile-nav-link">移动端常用私有属性</a><strong class="mobile-nav-title">命名规范</strong><a href="/docs/name/dir.html" class="mobile-nav-link">目录命名</a><a href="/docs/name/image.html" class="mobile-nav-link">图片命名</a><a href="/docs/name/htmlcss.html" class="mobile-nav-link">HTML/CSS 命名</a><a href="/docs/name/classname.html" class="mobile-nav-link">ClassName 命名</a><strong class="mobile-nav-title">JS 规范</strong><a href="/docs/js/language.html" class="mobile-nav-link current">语言规范</a><a href="/docs/js/code.html" class="mobile-nav-link">代码规范</a><strong class="mobile-nav-title">通用</strong><a href="/docs/common/markdown.html" class="mobile-nav-link">Markdown</a>
     
   </div>
   <div id="mobile-lang-select-wrap" class="mobile-lang-select-wrap">
@@ -344,6 +345,13 @@
 <!-- endbuild -->
 
 <!-- Swiftype -->
+<script>
+$(function(){
+  $('#search-btn-wrap').on('click',function(){
+      alert("恭喜你发现隐藏功能，这个功能就是:搜索并没有卵用")
+  })
+})
+</script>  
 </div>
 </body>
 </html>
