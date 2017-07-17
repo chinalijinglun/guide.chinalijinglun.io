@@ -229,7 +229,52 @@ $(function(){
   $('#search-btn-wrap').on('click',function(){
       alert("恭喜你发现隐藏功能，这个功能就是:搜索并没有卵用")
   })
+
+  //搞笑
+  var dTile = document.title;
+  document.addEventListener('visibilitychange', function() {
+      var isHidden = document.hidden;
+      if (isHidden) {
+        document.title = '【有bug，请检查】';
+      } else {
+        document.title = dTile;
+      }
+ });
+ 
 })
+</script>  
+<script>
+(function($, App) {
+    var ljlconsole = {
+
+        configs: {
+            // 信息的输出
+            staff: "%cBuilt%c by 李经纶 lijinglun.com） %cbasing on Hexo.\n\nContact me at %c281965992@qq.com%c.\n\n",
+            // 页面用到的技术：在这个页面，我们用了%cXXX，YYY，%c你发现了吗？\n\n
+            freshTec: "%c%c",
+            // 趣味体验：另外，尝试%cXXX，%c会有惊喜哦~\n\n
+            funExp: "%c%c"
+        },
+
+        // 定义console样式
+        init: function(){
+
+            // 只展示chrome
+            if(window.console&&console.log&&navigator.userAgent.toLowerCase().match(/chrome\/([\d.]+)/)) {
+
+                var consoleConfig = this.configs;
+
+                var styleBold = "font-weight: bold;color: #6190e8;";
+                var styleNormal =  "font-size: 12px;color: #6190e8;";
+
+                console.log(consoleConfig.staff + consoleConfig.freshTec + consoleConfig.funExp, "color: #6190e8;", styleBold, styleNormal, styleBold, styleNormal, styleBold, styleNormal, styleBold, styleNormal);
+
+            }
+        }   
+
+    };
+    ljlconsole.init();   
+})(jQuery, App);// console信息
 </script>  
 </div>
 </body>
